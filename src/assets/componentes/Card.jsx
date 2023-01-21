@@ -1,5 +1,6 @@
 import React from 'react';
 import imgheader from './images/bg-pattern-card.svg';
+import imgperfil from './images/perfil.jpg';
 import Stack from './Stack';
 
 
@@ -10,7 +11,7 @@ const Card = () => {
                 <img className="card__header__imgPortada" src={imgheader} alt="" />
             </header>
             <div className="card__perfil">
-                <img className='card__perfil__img' src="https://media.spainbs.com/recursos_www/blog_img_autores/17/20200420093047-Darlis-Darian.jpg" />
+                <img className='card__perfil__img' src={imgperfil} />
             </div>
             <div className="card__datos">
                 <p  className='datos__nombre'>Jhair Infanzon <span className='datos__edad'>28</span></p>
